@@ -1,0 +1,31 @@
+{
+  "name": "fibonacci-2",
+  "version": "1.0.0",
+  "description": "Calculate fibonacci",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "bin": {
+    "fibonacci": "bin/fibonacci.js",
+    "fibonacci-seq": "bin/fibonacciSeq.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ltftf/fibonacci-2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltftf/fibonacci-2.git"
+  },
+  "keywords": [
+    "fibonacci",
+    "sequence",
+    "cli"
+  ],
+  "files": [
+    "bin/*"
+  ],
+  "author": "Ilia Baranov <ltftf4@gmail.com>",
+  "license": "MIT",
+  "type": "module"
+}
